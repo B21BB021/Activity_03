@@ -27,8 +27,7 @@ while True:
                 result = num1 / num2
                 print("Result:", result)
     else:
-        print("this is the Invalid Input")
-        
+        print( "this is the Invalid Input")
 
     next_calculation = input("Do you want to perform another calculation? (yes/no): ")
     if next_calculation.lower() != 'yes':
